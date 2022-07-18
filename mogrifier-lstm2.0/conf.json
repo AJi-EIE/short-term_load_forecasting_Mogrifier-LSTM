@@ -1,0 +1,52 @@
+{
+	"model_name" : "MogLSTM",
+	
+	"no_models" : 10,
+	
+	"type" : "mnist",
+	
+	"global_epochs" : 10,
+	
+	"local_epochs" : 100,
+	
+	"k" : 2,
+	
+	"batch_size" : 64,
+	
+	"lr" : 0.001,
+	
+	"momentum" : 1e-08,
+	
+	"lambda" : 0.5,
+	
+	"dp" : false,
+
+	"alg" : "q-fedavg",
+	
+	"C" : 1,
+	
+	"sigma" : 0.001,
+	
+	"q" : 0.1,
+	
+	"W" : 1,
+
+	"input_size" : 7, 
+
+	"model_input_size" : 7,
+	
+	"output_size" : 1, 
+
+    "hidden_size" : 7,
+
+	"num_layers"  : 2,
+
+    "lstm_batch_size" : 30,
+
+	"optimizer" : "adam",
+
+    "mogrify_steps" : 5,   
+
+    "weight_decay" : 1e-4
+   
+}
